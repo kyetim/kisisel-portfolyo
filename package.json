@@ -1,0 +1,11 @@
+{
+  "name": "kadir-yetim-portfolyo",
+  "version": "1.0.0",
+  "description": "Kadir Yetim Kişisel Portfolyo Sitesi",
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

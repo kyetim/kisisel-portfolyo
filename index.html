@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kadir Yetim — Fullstack Web Geliştirici</title>
+  <meta name="description" content="Kadir Yetim kişisel portfolyo sitesi. Fullstack Web Geliştirici & Yapay Zeka Sistemleri Uzman Adayı." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">KY<span class="accent">.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hakkimda" class="nav-link">Hakkımda</a></li>
+        <li><a href="#projeler" class="nav-link">Projeler</a></li>
+        <li><a href="#beceriler" class="nav-link">Beceriler</a></li>
+        <li><a href="#egitim" class="nav-link">Eğitim</a></li>
+        <li><a href="#iletisim" class="nav-link nav-cta">İletişim</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Merhaba, ben</p>
+        <h1 class="hero-name">Kadir Yetim</h1>
+        <h2 class="hero-title">Fullstack Web Geliştirici<br /><span class="accent">& Yapay Zeka Sistemleri Uzman Adayı</span></h2>
+        <p class="hero-desc">
+          "Sıfırdan Ürüne" felsefesiyle modern, kullanıcı dostu uygulamalar geliştiriyorum.
+          React, Node.js ve yapay zeka araçlarıyla projeler üretiyorum.
+        </p>
+        <div class="hero-btns">
+          <a href="#projeler" class="btn btn-primary">Projelerimi Gör</a>
+          <a href="#iletisim" class="btn btn-outline">İletişime Geç</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/kyetim" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/kadir-yetim" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:mr.kyetim12@gmail.com" class="social-link" aria-label="E-posta">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <div class="avatar-placeholder">
+            <span>KY</span>
+          </div>
+        </div>
+        <div class="avatar-badge">
+          <span class="badge-dot"></span>
+          Mersin, TR
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#hakkimda" class="scroll-down" aria-label="Aşağı kaydır">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== HAKKIMDA ===== -->
+  <section class="section" id="hakkimda">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 / Hakkımda</span>
+        <h2 class="section-title">Kim miyim?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            İstanbul Üniversitesi AUZEF Web Tasarımı ve Kodlama bölümü önlisans öğrencisiyim (Mezuniyet: Yaz 2026).
+            Yazılım geliştirme alanında 2-3 yıldır aralıksız kendimi geliştiriyor, gerçek projeler üretiyorum.
+          </p>
+          <p>
+            Akademik eğitimimi; React.js, Next.js, Node.js ve yapay zeka araçları üzerine <strong>BTK Akademi sertifikaları</strong> ile
+            güçlü bir proje portföyüyle pekiştirdim.
+          </p>
+          <p>
+            Müzik akademisi yöneticisi olarak edindiğim liderlik ve iletişim deneyimini yazılım kariyerime aktarıyorum.
+            Türkiye yazılım sektöründe hem <strong>Fullstack Developer</strong> hem de <strong>Yapay Zeka Sistemleri Uzmanı</strong> olarak
+            profesyonel kariyerimi sürdürmek istiyorum.
+          </p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Konum</span>
+              <span class="meta-value">Mersin, Türkiye</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">E-posta</span>
+              <span class="meta-value">mr.kyetim12@gmail.com</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Durum</span>
+              <span class="meta-value status-open"><span class="dot"></span>Fırsatlara Açık</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Diller</span>
+              <span class="meta-value">Türkçe (Anadil), İngilizce (B1-B2)</span>
+            </div>
+          </div>
+          <a href="mailto:mr.kyetim12@gmail.com" class="btn btn-primary" style="margin-top:1.5rem">İletişime Geç</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">6+</span>
+            <span class="stat-label">Tamamlanan Proje</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Sertifika</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Yıl Deneyim</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2026</span>
+            <span class="stat-label">Mezuniyet</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJELER ===== -->
+  <section class="section section-dark" id="projeler">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 / Projeler</span>
+        <h2 class="section-title">Öne Çıkan Projelerim</h2>
+        <p class="section-desc">Gerçek problemlere ürettiğim yazılım çözümleri.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Proje 1: Mizmiz -->
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17 8h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2v4l-4-4H9a2 2 0 0 1-2-2v-1"/><path d="M7 16H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-1"/></svg>
+            </div>
+            <span class="project-badge">Web Uygulaması</span>
+          </div>
+          <h3 class="project-title">Mizmiz Social App</h3>
+          <p class="project-desc">
+            Kullanıcıların birbirleriyle etkileşime geçebildiği, gönderi paylaşabildiği tam fonksiyonlu
+            sosyal medya web uygulaması. Kimlik doğrulama, gerçek zamanlı feed ve kullanıcı profilleri içerir.
+          </p>
+          <div class="project-techs">
+            <span class="tech-badge">React.js</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">Node.js</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/kyetim/mizmiz-social-app" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub'da Gör
+            </a>
+          </div>
+        </article>
+
+        <!-- Proje 2: LogiTrack -->
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 4v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <span class="project-badge">Mobil Uygulama</span>
+          </div>
+          <h3 class="project-title">LogiTrack System</h3>
+          <p class="project-desc">
+            Lojistik şirketleri için geliştirilmiş gerçek zamanlı kargo ve araç takip mobil uygulaması.
+            Anlık konum takibi, teslimat yönetimi ve sürücü-yönetici paneli içerir.
+          </p>
+          <div class="project-techs">
+            <span class="tech-badge">React Native</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/kyetim/LogiTrack-System" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub'da Gör
+            </a>
+          </div>
+        </article>
+
+        <!-- Proje 3: Lirik Sanat Evi -->
+        <article class="project-card featured">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <span class="project-badge">Web Sitesi</span>
+          </div>
+          <h3 class="project-title">Lirik Sanat Evi</h3>
+          <p class="project-desc">
+            Sanat merkezi için geliştirilen etkinlik ve tanıtım odaklı web sitesi.
+            Responsive tasarım, etkinlik takvimi ve kurumsal kimliği yansıtan modern bir arayüz içerir.
+          </p>
+          <div class="project-techs">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/kyetim/lirik-sanat-evi" target="_blank" rel="noopener" class="project-link">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub'da Gör
+            </a>
+          </div>
+        </article>
+
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/kyetim" target="_blank" rel="noopener" class="btn btn-outline">
+          Tüm Projelerime Bak →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BECERİLER ===== -->
+  <section class="section" id="beceriler">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 / Beceriler</span>
+        <h2 class="section-title">Teknik Yetkinliklerim</h2>
+        <p class="section-desc">Kullandığım teknolojiler ve araçlar.</p>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Frontend
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-primary">React.js</span>
+            <span class="skill-tag skill-primary">TypeScript</span>
+            <span class="skill-tag skill-primary">Next.js</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">HTML5 & CSS3</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Vite</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <span>React.js</span>
+              <div class="bar"><div class="bar-fill" data-width="88"></div></div>
+              <span class="bar-pct">İleri</span>
+            </div>
+            <div class="skill-bar-item">
+              <span>JavaScript / TS</span>
+              <div class="bar"><div class="bar-fill" data-width="82"></div></div>
+              <span class="bar-pct">İyi</span>
+            </div>
+            <div class="skill-bar-item">
+              <span>HTML & CSS</span>
+              <div class="bar"><div class="bar-fill" data-width="92"></div></div>
+              <span class="bar-pct">İleri</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            Backend & Veritabanı
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-primary">Node.js</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">REST API</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <span>Node.js</span>
+              <div class="bar"><div class="bar-fill" data-width="75"></div></div>
+              <span class="bar-pct">İyi</span>
+            </div>
+            <div class="skill-bar-item">
+              <span>MongoDB</span>
+              <div class="bar"><div class="bar-fill" data-width="70"></div></div>
+              <span class="bar-pct">İyi</span>
+            </div>
+            <div class="skill-bar-item">
+              <span>REST API</span>
+              <div class="bar"><div class="bar-fill" data-width="78"></div></div>
+              <span class="bar-pct">İyi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Yapay Zeka & Araçlar
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-ai">Anthropic Claude</span>
+            <span class="skill-tag skill-ai">Üretken YZ</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">API Testi</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag skill-learning">Python (öğreniliyor)</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EĞİTİM & SERTİFİKALAR ===== -->
+  <section class="section section-dark" id="egitim">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 / Eğitim & Sertifikalar</span>
+        <h2 class="section-title">Akademik & Mesleki Gelişim</h2>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-column">
+          <h3 class="edu-col-title">Eğitim</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2023 – 2026</span>
+                <h4>Web Tasarımı ve Kodlama</h4>
+                <p>İstanbul Üniversitesi AUZEF</p>
+                <span class="timeline-badge">Önlisans · Son Dönem</span>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="edu-col-title" style="margin-top:2rem">Deneyim</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2021 – Günümüz</span>
+                <h4>Müzik Akademisi Müdürü</h4>
+                <p>Özel Müzik Akademisi, Mersin</p>
+                <span class="timeline-badge">Devam Ediyor</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2024 – Günümüz</span>
+                <h4>Müzik Öğretmeni</h4>
+                <p>Düşünür Koleji, Mersin</p>
+                <span class="timeline-badge">Devam Ediyor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-column">
+          <h3 class="edu-col-title">Sertifikalar</h3>
+          <div class="certs-list">
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">React Js İleri Seviye</span>
+                <span class="cert-date">BTK Akademi · Ocak 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">Anthropic Claude</span>
+                <span class="cert-date">BTK Akademi · Şubat 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">Node.js ile Web Programlama</span>
+                <span class="cert-date">BTK Akademi · 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">Üretken Yapay Zekâya Giriş</span>
+                <span class="cert-date">BTK Akademi · 2026</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">API ve API Testi</span>
+                <span class="cert-date">BTK Akademi · Ağustos 2025</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">Versiyon Kontrolleri: Git ve GitHub</span>
+                <span class="cert-date">BTK Akademi · Temmuz 2025</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">YTG</div>
+              <div class="cert-info">
+                <span class="cert-name">OOP: Python Geliştirme</span>
+                <span class="cert-date">YETGİM Bootcamp · 2025</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">BTK</div>
+              <div class="cert-info">
+                <span class="cert-name">Web Sitesi Kullanılabilirliği</span>
+                <span class="cert-date">BTK Akademi · Ağustos 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== İLETİŞİM ===== -->
+  <section class="section" id="iletisim">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 / İletişim</span>
+        <h2 class="section-title">Benimle İletişime Geç</h2>
+        <p class="section-desc">Bir proje fikrin mi var? Birlikte çalışalım.</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">E-posta</span>
+              <a href="mailto:mr.kyetim12@gmail.com" class="contact-value">mr.kyetim12@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Telefon</span>
+              <a href="tel:+905417983648" class="contact-value">+90 541 798 3648</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Konum</span>
+              <span class="contact-value">Mersin, Türkiye</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/kyetim" target="_blank" rel="noopener" class="social-btn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/kadir-yetim" target="_blank" rel="noopener" class="social-btn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">Ad <span class="required">*</span></label>
+              <input type="text" id="firstName" name="firstName" placeholder="Adınız" required />
+              <span class="field-error" id="firstNameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Soyad <span class="required">*</span></label>
+              <input type="text" id="lastName" name="lastName" placeholder="Soyadınız" required />
+              <span class="field-error" id="lastNameError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-posta <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="ornek@email.com" required />
+            <span class="field-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Mesajınızı buraya yazın..." required></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="submitText">Mesaj Gönder</span>
+            <span id="submitSpinner" class="spinner hidden"></span>
+          </button>
+          <div class="form-feedback hidden" id="formSuccess">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            Mesajınız gönderildi! En kısa sürede geri dönüş yapacağım.
+          </div>
+          <div class="form-feedback form-error-msg hidden" id="formError">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+            Bir hata oluştu. Lütfen tekrar deneyin.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-logo">KY<span class="accent">.</span></span>
+      <p class="footer-text">
+        &copy; 2025 Kadir Yetim · Tüm hakları saklıdır.
+      </p>
+      <p class="footer-sub">React · Node.js · Fullstack</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
